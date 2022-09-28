@@ -15,7 +15,7 @@ export default class Product {
         return this._name
     }
 
-    get price() {
+    get price(): number {
         return this._price
     }
 
