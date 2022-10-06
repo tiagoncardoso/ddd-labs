@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
-import Customer from "../entity/Customer";
-import Order from "../entity/Order";
-import OrderItem from "../entity/OrderItem";
+import Customer from "../domain/entity/Customer";
+import Order from "../domain/entity/Order";
+import OrderItem from "../domain/entity/OrderItem";
 
 export default class OrderService {
 
